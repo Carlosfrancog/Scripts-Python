@@ -1,4 +1,4 @@
-print('====== DESAFIO 093 ======')
+print('====== DESAFIO 093 ======') 
 jogador = dict()
 partidas = list()
 jogador['nome'] = str(input('Nome do Jogador: '))
