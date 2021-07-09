@@ -1,0 +1,6 @@
+print('==== DESAFIO 022 ==== ')
+nome = str(input('Digite um nome completo:')).strip()
+print(f'Esse nome totalmente com letras maíusculas é: {nome.upper()}')
+print(f'Esse nome totalmente com letras mínusculas é: {nome.lower()}')
+print('Esse nome tem ao todo {} letras.'.format(len(nome) - nome.count(' ')))
+print('O primeiro tem {}'.format(nome.find(' ')))

@@ -1,0 +1,5 @@
+print('====== DESAFIO 025 ======')
+name = str(input('Digte seu nome completo:')).strip()
+print(f'Analisando se o nome "{name}" possui "Silva"...')
+print('-'*20)
+print('silva' in name.lower())

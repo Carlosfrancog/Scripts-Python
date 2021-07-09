@@ -1,0 +1,5 @@
+print('====== DESAFIO 024 ====== ')
+city = str(input('Em que cidade voçê nasceu?')).strip()
+print(f'Analisando se a cidade {city} começa com "Santo"...')
+print('-'*20)
+print(city[:5].lower() == 'santo')
